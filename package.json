@@ -1,0 +1,26 @@
+{
+  "name": "feast-flaming-tongues",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Promotional site for Feast of the Flaming Tongues, the group's 2027 chilli festival.",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "password": "tsx src/password.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}

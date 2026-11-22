@@ -69,6 +69,12 @@ web_modules/
 .env
 .env.*
 !.env.example
+feast.env
+
+# Local RSVPs, the house address, and the group password hash
+data/rsvps.json
+data/private.json
+Feast of the Flaming Tongues.zip
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache

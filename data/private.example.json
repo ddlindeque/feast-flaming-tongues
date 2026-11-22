@@ -1,0 +1,4 @@
+{
+  "hosts": "The hosts",
+  "lines": ["Street and number", "Town", "Postcode"]
+}
